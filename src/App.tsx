@@ -112,8 +112,9 @@ export function App() {
         {view === 'month' && (
           <MonthView
             currentDate={currentDate}
-            onSelectDate={setCurrentDate}
+            onDateChange={setCurrentDate}
             onOpenDayView={handleOpenDayViewForDate}
+            onUpdateDayRecord={handleUpdateDayRecord}
           />
         )}
 
