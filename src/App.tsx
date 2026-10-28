@@ -146,15 +146,10 @@ export function App() {
       />
 
       {/* Footer */}
-      <footer className="border-t border-zinc-900 bg-zinc-950/80 py-6 text-center text-xs text-zinc-400">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p>
-            🚨 <strong className="text-red-400">MODO GUERRA ATÉ O DIA 26</strong> • Rodando em <strong className="text-zinc-400">localhost:5173</strong>
-          </p>
-          <p className="text-zinc-400">
-            Foco total em vendas & caixa: 3 IG • 3 TikTok • Anúncios TikTok & Facebook • Academia Matinal • Igreja ao Domingo
-          </p>
-        </div>
+      <footer className="border-t border-zinc-900/60 py-6 text-center text-xs text-zinc-500">
+        <p>
+          Meta: 26 de Novembro • 6 vídeos diários • Tráfego TikTok & Meta • Treino Matinal
+        </p>
       </footer>
     </div>
   );
